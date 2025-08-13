@@ -6,6 +6,12 @@ Download content from any website that contains an `article` tag and transforms 
 
 Make sure you have [Volta](https://volta.sh/) installed. Then Node and PNPM will be all properly configured for you.
 
+Install dependencies with:
+
+```shell
+pnpm install
+```
+
 Now run the CLI with:
 
 ```shell
