@@ -1,0 +1,26 @@
+{
+  "name": "contentful_scrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "24.2.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.2"
+  },
+  "volta": {
+    "node": "24.5.0",
+    "pnpm": "10.14.0"
+  },
+  "dependencies": {
+    "@types/turndown": "5.0.5",
+    "node-html-parser": "7.0.1",
+    "turndown": "7.2.0"
+  }
+}
