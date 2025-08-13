@@ -19,3 +19,7 @@ https://example.com/path1
 https://example.com/path2
 https://example.com/path3
 ```
+
+The output markdown files will be written to the `output` directory with a timestamp.
+
+Example: `output/2025-08-13T13-38-29` with all markdown files there.
