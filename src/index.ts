@@ -106,9 +106,9 @@ async function processCsvFile(csvFile: string) {
     let processed = 0;
     let failed = 0;
     
-    for (const url of urls) {
+    for (const [index, url] of urls.entries()) {
       try {
-        console.log(`Processing: ${url}`);
+        console.log(`Processing ${index + 1} out of ${urls.length}: ${url}`);
         const markdown = await scrapeUrlToMarkdown(url);
         const filename = `${getUrlStem(url)}.md`;
         const filepath = join(outputDir, filename);
